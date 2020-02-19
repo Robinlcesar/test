@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
+    "start": "yarn index.js",
     "heroku-postbuild": "yarn build",
     "start:heroku": "yarn start:prod"
   },
