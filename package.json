@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "yarn build",
+    "start:heroku": "yarn start:prod"
   },
   "dependencies": {
     "axios": "^0.19.2",
